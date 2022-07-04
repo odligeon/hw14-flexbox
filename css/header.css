@@ -1,0 +1,42 @@
+.header {
+    padding: 25px 51px;
+}
+
+.header.fb-container {
+    justify-content: space-between;
+}
+
+nav a {
+    display: block;
+    margin-right: 51px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.header__section-login a {
+    display: block;
+    font-size: 1rem;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    background: #FF6336;
+    width: 120px;
+    text-align: center;
+}
+
+
+.header__section-login li:first-child a{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 43px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    background: white;
+    margin-right: 10px;
+    width: 120px;
+    text-align: center;
+}

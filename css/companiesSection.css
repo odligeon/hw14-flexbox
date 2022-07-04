@@ -1,0 +1,18 @@
+.companies__section {
+    background: var(--bg--orange);
+    flex-direction: column;
+}
+
+.companies__section h2 {
+    max-width: 720px;
+    margin: 108px auto 70px auto;
+}
+
+.images {
+    padding: 0 100px;
+    margin-bottom: 94px;
+}
+
+.images > img {
+    display: block;
+}

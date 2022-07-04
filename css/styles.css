@@ -1,0 +1,66 @@
+@import "reset.css";
+@import "header.css";
+@import "firstSection.css";
+@import "companiesSection.css";
+
+:root {
+    --fs-15px: .9375rem;
+    --fs-25px: 1.5625rem;
+    --fs-50px: 3.125rem;
+    --bg--orange: #FF9C7D;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+nav {
+    line-height: 20px;
+    font-size: var(--fs-15px);
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.fb-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.font-normal {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-semibold {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.line {
+    background: #CCCCCC;
+    border: 0;
+    height: 1px;
+}
+
+h1 {
+    font-size: 4.0625rem;
+    line-height: 70px;
+    width: 552px;
+    letter-spacing: 2px;
+    word-spacing: -6px;
+    margin-bottom: 51px;
+}
+
+h2  {
+    font-size: var(--fs-50px);
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
