@@ -8,11 +8,16 @@
     margin: 108px auto 70px auto;
 }
 
-.images {
+div.images {
+    display: flex;
     padding: 0 100px;
-    margin-bottom: 94px;
+    margin-bottom: 104px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .images > img {
     display: block;
+    align-self: center;
 }

@@ -17,14 +17,21 @@ main.container {
 .first__section li:first-child a {
     display: block;
     font-size: 1rem;
-    line-height: 60px;
+    line-height: 58px;
     text-decoration: none;
     font-weight: 600;
     color: #ffffff;
     background: #FF6336;
     width: 160px;
     text-align: center;
-    border: none;
+    /*border: none;*/
+    border: 1px solid transparent;
+}
+
+.first__section li:first-child a:hover {
+    color: #FF6336;
+    background: #ffffff;
+    border: 1px solid black;
 }
 
 .first__section li a {
@@ -39,6 +46,11 @@ main.container {
     margin-right: 10px;
     width: 160px;
     text-align: center;
+}
+
+.first__section li a:hover {
+    color: white;
+    background: black;
 }
 
 .first__section__buttons {

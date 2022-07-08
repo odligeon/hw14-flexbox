@@ -11,23 +11,35 @@ nav a {
     margin-right: 51px;
     text-decoration: none;
     color: #000000;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 
 .header__section-login a {
     display: block;
     font-size: 1rem;
-    line-height: 45px;
+    line-height: 43px;
     text-decoration: none;
     font-weight: 600;
     color: #ffffff;
     background: #FF6336;
     width: 120px;
     text-align: center;
+    border: 1px solid transparent;
+}
+
+.header__section-login a:hover {
+    color: #FF6336;
+    background: #ffffff;
+    border: 1px solid black;
 }
 
 
-.header__section-login li:first-child a{
+.header__section-login li:first-child a {
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.5);
     font-size: 1rem;
@@ -39,4 +51,9 @@ nav a {
     margin-right: 10px;
     width: 120px;
     text-align: center;
+}
+
+.header__section-login li:first-child a:hover {
+    background: black;
+    color: white;
 }
